@@ -1,15 +1,60 @@
-<nav>
-    <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li>
-            <a href="integrantes.html">
-                Integrantes
-            </a>
-        </li>
-        <li>
-            <a href="contactanos.html">
-                Contactenos
-            </a>
-        </li>
-    </ul>
-</nav>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Titulo de la pagina</h1>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li>
+                    <a href="./integrantes.html">
+                        Integrantes
+                    </a>
+                </li>
+                <li>
+                    <a href="contactanos.html">
+                        Contactanos
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form action="#" method="get">
+            <div>
+                <label for="myname">Nombre:</label>
+                <input type="text" id="myname" name="campodenombre" placeholder="Pepe">
+            </div>
+            <div>
+                <label for="pass">Contra:</label>
+                <input type="password" id="pass" name="contra" required>
+            </div>
+            <div>
+                <input type="radio" name="sexo"> Masculino
+                <input type="radio" name="sexo"> Femenino
+                <input type="radio" name="sexo"> Otro
+            </div>
+            <div>
+                <select name="Pais" id="">
+                    <option value="AR">Argentina</option>
+                    <option value="FR">Francia el segundo como siempre, fuera mbappe</option>
+                    <option value="BR">Bra</option>
+                </select>
+            </div>
+            <div>
+                <textarea name="" id="" cols="30" rows="10" maxlength="255"></textarea>
+            </div>
+            
+            
+        </form>
+        <input type="submit" value="Ingresar">
+    </main>
+
+</body>
+</html>
