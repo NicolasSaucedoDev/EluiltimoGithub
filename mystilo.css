@@ -1,0 +1,58 @@
+/* HEADER */
+
+
+.body {
+    color: white;
+    background-color: black;
+    font-size: 19px;
+    /* background-image: url('./imagen/pejelagarto.jpg'); */
+}
+
+body main p {
+    color: #09e12c;
+    font-size: 27px;
+}
+
+
+
+/* MAIN */
+
+
+/* esta clase queda como unica */
+.lista-de-items {
+    background-color: chocolate;
+    font-size: 10px;
+    width: 25%;
+    text-align: center;
+    list-style-type: none;
+    font-style: oblique;
+}
+
+.texto-de-error {
+    color: white;
+    background-color: rgb(187, 25, 25);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+/* ASIDE */
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+
